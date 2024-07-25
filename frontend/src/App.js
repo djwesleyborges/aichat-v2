@@ -15,9 +15,9 @@ import { getBackendURL } from "./services/config";
 import Routes from "./routes";
 
 const queryClient = new QueryClient();
-const defaultLogoLight = "/vector/logo.svg";
-const defaultLogoDark = "/vector/logo-dark.svg";
-const defaultLogoFavicon = "/vector/favicon.svg";
+const defaultLogoLight = "/vector/logo.png";
+const defaultLogoDark = "/vector/logo-dark.png";
+const defaultLogoFavicon = "/vector/favicon.png";
 
 const App = () => {
   const [locale, setLocale] = useState();
@@ -150,7 +150,7 @@ const App = () => {
 
   useEffect(() => {
     getPublicSetting("primaryColorLight")
-      .then((color) => { setPrimaryColorLight(color || "#0000FF") })
+      .then((color) => { setPrimaryColorLight(color || "#FFFFFF") })
       .catch((error) => { console.log("Error reading setting", error); });
     getPublicSetting("primaryColorDark")
       .then((color) => { setPrimaryColorDark(color || "#39ACE7") })

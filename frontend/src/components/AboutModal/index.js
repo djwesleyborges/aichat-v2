@@ -18,8 +18,8 @@ import { i18n } from "../../translate/i18n";
 import useAuth from "../../hooks/useAuth.js";
 import { useTheme } from "@material-ui/core/styles";
 
-const logo = "/vector/logo.svg";
-const logoDark = "/vector/logo-dark.svg";
+const logo = "/vector/logo.png";
+const logoDark = "/vector/logo-dark.png";
 
 const useStyles = makeStyles(theme => ({
 	root: {

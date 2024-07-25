@@ -62,9 +62,9 @@ import ColorModeContext from "../../layout/themeContext";
 import api from "../../services/api";
 import { getBackendURL } from "../../services/config";
 
-const defaultLogoLight = "/vector/logo.svg";
-const defaultLogoDark = "/vector/logo-dark.svg";
-const defaultLogoFavicon = "/vector/favicon.svg";
+const defaultLogoLight = "/vector/logo.png";
+const defaultLogoDark = "/vector/logo-dark.png";
+const defaultLogoFavicon = "/vector/favicon.png";
 
 const useStyles = makeStyles((theme) => ({
   container: {
