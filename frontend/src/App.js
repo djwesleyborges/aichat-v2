@@ -150,7 +150,7 @@ const App = () => {
 
   useEffect(() => {
     getPublicSetting("primaryColorLight")
-      .then((color) => { setPrimaryColorLight(color || "#FFFFFF") })
+      .then((color) => { setPrimaryColorLight(color || "#0000FF") })
       .catch((error) => { console.log("Error reading setting", error); });
     getPublicSetting("primaryColorDark")
       .then((color) => { setPrimaryColorDark(color || "#39ACE7") })
